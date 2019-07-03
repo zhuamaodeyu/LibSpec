@@ -1,0 +1,26 @@
+{
+    "name": "SwiftyJSON",
+    "version": "5.0.0",
+    "summary": "SwiftyJSON makes it easy to deal with JSON data in Swift",
+    "homepage": "https://github.com/SwiftyJSON/SwiftyJSON",
+    "license": {
+        "type": "MIT"
+    },
+    "authors": {
+        "lingoer": "lingoerer@gmail.com",
+        "tangplin": "tangplin@gmail.com"
+    },
+    "requires_arc": true,
+    "swift_versions": "5.0",
+    "platforms": {
+        "osx": "10.9",
+        "ios": "8.0",
+        "watchos": "3.0",
+        "tvos": "9.0"
+    },
+    "source": {
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//SwiftyJSON/5.0.0.zip"
+    },
+    "swift_version": "5.0",
+    "vendored_frameworks": "zip/SwiftyJSON.framework"
+}
