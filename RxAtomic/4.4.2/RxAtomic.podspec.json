@@ -1,0 +1,25 @@
+{
+    "name": "RxAtomic",
+    "version": "4.4.2",
+    "summary": "Atomic primitives for RxSwift",
+    "description": "Atomic primitives for RxSwift.",
+    "homepage": "https://github.com/ReactiveX/RxSwift",
+    "license": "MIT",
+    "authors": {
+        "Krunoslav Zaher": "krunoslav.zaher@gmail.com"
+    },
+    "source": {
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//RxAtomic/4.4.2.zip"
+    },
+    "requires_arc": true,
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES"
+    },
+    "platforms": {
+        "ios": "8.0",
+        "osx": "10.9",
+        "watchos": "3.0",
+        "tvos": "9.0"
+    },
+    "vendored_frameworks": "zip/RxAtomic.framework"
+}
