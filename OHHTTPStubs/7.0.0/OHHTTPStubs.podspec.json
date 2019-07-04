@@ -1,0 +1,81 @@
+{
+    "name": "OHHTTPStubs",
+    "version": "7.0.0",
+    "summary": "Framework to stub your network requests like HTTP and help you write network unit tests with XCTest.",
+    "description": "A class to stub network requests easily:\n\n * Test your apps with fake network data (stubbed from file)\n * You can also customize your response headers and status code\n * Use customized stubs depending on the requests\n * Use custom response time to simulate slow network.\n * This works with any request (HTTP, HTTPS, or any protocol) sent using\n   the iOS URL Loading System (NSURLConnection, NSURLSession, AFNetworking, \u2026)\n * This is really useful in unit testing, when you need to test network features\n   but don't want to hit the real network and fake some response data instead.\n * Has useful convenience methods to stub JSON content or fixture from a file\n * Compatible with Swift",
+    "homepage": "https://github.com/AliSoftware/OHHTTPStubs",
+    "license": "MIT",
+    "authors": {
+        "Olivier Halligon": "olivier.halligon+ae@gmail.com"
+    },
+    "source": {
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//OHHTTPStubs/7.0.0.zip"
+    },
+    "frameworks": [
+        "Foundation",
+        "CFNetwork"
+    ],
+    "requires_arc": true,
+    "platforms": {
+        "ios": "8.0",
+        "osx": "10.9",
+        "watchos": "2.0",
+        "tvos": "9.0"
+    },
+    "default_subspecs": "Default",
+    "subspecs": [
+        {
+            "name": "Default",
+            "dependencies": {},
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "Core",
+            "public_header_files": "OHHTTPStubs/Sources/*.h",
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "NSURLSession",
+            "dependencies": {},
+            "private_header_files": "OHHTTPStubs/Sources/NSURLSession/OHHTTPStubsMethodSwizzling.h",
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "JSON",
+            "dependencies": {},
+            "public_header_files": "OHHTTPStubs/Sources/JSON/*.h",
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "HTTPMessage",
+            "dependencies": {},
+            "public_header_files": "OHHTTPStubs/Sources/HTTPMessage/*.h",
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "Mocktail",
+            "dependencies": {},
+            "public_header_files": "OHHTTPStubs/Sources/Mocktail/*.h",
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "OHPathHelpers",
+            "public_header_files": [
+                "OHHTTPStubs/Sources/OHPathHelpers/*.h",
+                "OHHTTPStubs/Sources/Compatibility.h"
+            ],
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        },
+        {
+            "name": "Swift",
+            "platforms": {
+                "ios": "8.0",
+                "osx": "10.9",
+                "watchos": "2.0",
+                "tvos": "9.0"
+            },
+            "dependencies": {},
+            "vendored_frameworks": "zip/OHHTTPStubs.framework"
+        }
+    ]
+}
