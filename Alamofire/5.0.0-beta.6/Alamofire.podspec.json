@@ -18,7 +18,8 @@
         "tvos": "10.0",
         "watchos": "3.0"
     },
-    "swift_version": "5.0",
+    "swift_versions": "5.0",
     "frameworks": "CFNetwork",
+    "swift_version": "5.0",
     "vendored_frameworks": "zip/Alamofire.framework"
 }
