@@ -10,7 +10,7 @@
         "kishikawa katsumi": "kishikawakatsumi@mac.com"
     },
     "source": {
-        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//KeychainAccess/3.2.0.zip"
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//KeychainAccess/debug/3.2.0.zip"
     },
     "social_media_url": "https://twitter.com/k_katsumi",
     "requires_arc": true,
