@@ -25,7 +25,7 @@
         "watchos": "3.0"
     },
     "source": {
-        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//Kingfisher/5.6.0.zip"
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//Kingfisher/debug/5.6.0.zip"
     },
     "public_header_files": [
         "Sources/Kingfisher.h"
