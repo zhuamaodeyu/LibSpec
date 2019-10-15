@@ -9,7 +9,7 @@
     },
     "social_media_url": "http://twitter.com/robertjpayne",
     "source": {
-        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//SnapKit/5.0.0.zip"
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//SnapKit/debug/5.0.0.zip"
     },
     "platforms": {
         "ios": "10.0",
