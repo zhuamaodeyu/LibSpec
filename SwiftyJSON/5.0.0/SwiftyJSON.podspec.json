@@ -19,7 +19,7 @@
         "tvos": "9.0"
     },
     "source": {
-        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//SwiftyJSON/debug/5.0.0.zip"
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//SwiftyJSON/release/5.0.0.zip"
     },
     "swift_version": "5.0",
     "vendored_frameworks": "zip/SwiftyJSON.framework"
