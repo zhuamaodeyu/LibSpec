@@ -1,0 +1,21 @@
+{
+    "name": "TKBinaryTestLib",
+    "version": "0.1.0",
+    "summary": "A short description of TKBinaryTestLib.",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/\u6293\u732b\u7684\u9c7c/TKBinaryTestLib",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "\u6293\u732b\u7684\u9c7c": "playtomandjerry@gmail.com"
+    },
+    "source": {
+        "http": "https://binaryframework.oss-cn-beijing.aliyuncs.com//TKBinaryTestLib/release/0.1.0.zip"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "vendored_frameworks": "zip/TKBinaryTestLib.framework"
+}
